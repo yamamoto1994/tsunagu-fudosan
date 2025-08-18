@@ -6,10 +6,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>負の不動産を手放したい方へ | 一般社団法人 つなぐ不動産の会</title>
   <meta name="description" content="管理費・修繕積立金でお悩みの不動産オーナー様へ。リゾート物件・別荘・マンションなど、どんな負の資産でもお引き取りいたします。全国対応・最短1週間で手続き完了。">
-  <link rel="stylesheet" href="./css/style.css?ver=1.1">
+  
+  <!-- OGP設定 開始 -->
+  <!-- 基本のOGPタグ -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="負の不動産を手放したい方へ | 一般社団法人 つなぐ不動産の会">
+  <meta property="og:description" content="管理費・修繕積立金でお悩みの不動産オーナー様へ。リゾート物件・別荘・マンションなど、どんな負の資産でもお引き取りいたします。全国対応・最短1週間で手続き完了。">
+  <meta property="og:url" content="https://miyoshi06.xsrv.jp/tsunagu-fudosan/">
+  <meta property="og:site_name" content="つなぐ不動産の会">
+  <meta property="og:image" content="https://miyoshi06.xsrv.jp/tsunagu-fudosan/img/fv.webp">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="負の不動産を手放したい方へのサポートサービス">
+  <meta property="og:locale" content="ja_JP">
+  
+  <!-- Twitter Card設定 -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="負の不動産を手放したい方へ | つなぐ不動産の会">
+  <meta name="twitter:description" content="管理費・修繕積立金でお悩みの不動産オーナー様へ。全国対応・最短1週間で手続き完了。">
+  <meta name="twitter:image" content="https://miyoshi06.xsrv.jp/tsunagu-fudosan/img/fv.webp">
+  <meta name="twitter:image:alt" content="負の不動産を手放したい方へのサポートサービス">
+  
+  <!-- Facebook App ID（必要な場合） -->
+  <!-- <meta property="fb:app_id" content="your-facebook-app-id"> -->
+  <!-- OGP設定 終了 -->
+  
+  <link rel="stylesheet" href="./css/style.css?ver=1.2">
+  <link rel="stylesheet" href="./css/thanks.css?ver=1.2">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  
   <script>
     (function(d) {
       var config = {
@@ -28,7 +55,7 @@
     <div class="container">
       <div class="logo">一般社団法人 つなぐ不動産の会</div>
       <div class="contact-info">
-        <div class="phone">携帯（担当者直通）：080-7637-2595</div>
+        <a class="phone" href="tel:08076372595">携帯（担当者直通）：080-7637-2595</a>
         <div class="business-hours">営業時間　平日：10時00分～20時00分　年中無休</div>
       </div>
     </div>
@@ -213,8 +240,8 @@
           </div>
           <div class="feature-content">
             <div class="number">05</div>
-            <h3>完全後払い制で<br class="sp">安心取引</h3>
-            <p>手付金や着手金は一切不要。所有権移転完了後の完全後払い制を採用しているため、安心してお取引いただけます。御見積だけでも大歓迎です。</p>
+            <h3>後払い制も相談可能</h3>
+            <p>手付金や着手金は一切不要。所有権移転完了後の後払い制も相談可能な為、安心してお取引いただけます。御見積だけでも大歓迎です。</p>
           </div>
         </div>
       </div>
@@ -502,46 +529,46 @@
       <h2>今すぐ管理費の負担から<br class="sp">解放されませんか？</h2>
       <p>無料相談で、あなたの負担軽減効果を確認してください</p>
 
-      <form class="contact-form" action="#" method="POST" enctype="multipart/form-data">
+      <form class="contact-form" action="./mail.php" method="POST" enctype="multipart/form-data">
         <div class="form-intro">
           必要事項をご記入後、確認画面にお進みください。
         </div>
 
         <div class="form-group">
-          <label for="name">お名前<span class="required">必須</span></label>
-          <input type="text" id="name" name="name" required>
+          <label for="お名前">お名前<span class="required">必須</span></label>
+          <input type="text" id="お名前" name="お名前" required>
         </div>
 
         <div class="form-group">
-          <label for="email">メールアドレス<span class="required">必須</span></label>
-          <input type="email" id="email" name="email" required>
+          <label for="メールアドレス">メールアドレス<span class="required">必須</span></label>
+          <input type="email" id="メールアドレス" name="メールアドレス" required>
         </div>
 
         <div class="form-group">
-          <label for="phone">電話番号</label>
-          <input type="tel" id="phone" name="phone">
+          <label for="電話番号">電話番号</label>
+          <input type="tel" id="電話番号" name="電話番号">
         </div>
 
         <div class="form-group">
-          <label for="location">不動産所在地</label>
-          <input type="text" id="location" name="location" placeholder="例：静岡県熱海市○○">
+          <label for="不動産所在地">不動産所在地</label>
+          <input type="text" id="不動産所在地" name="不動産所在地" placeholder="例：静岡県熱海市○○">
         </div>
 
         <div class="form-group">
-          <label for="management_fee">月額管理費</label>
-          <input type="text" id="management_fee" name="management_fee" placeholder="例：45,000円">
+          <label for="月額管理費">月額管理費</label>
+          <input type="text" id="月額管理費" name="月額管理費" placeholder="例：45,000円">
         </div>
 
         <div class="form-group">
-          <label for="inquiry">ご相談内容</label>
-          <textarea id="inquiry" name="inquiry" placeholder="物件の詳細や現在のお悩みをお聞かせください"></textarea>
+          <label for="ご相談内容">ご相談内容</label>
+          <textarea id="ご相談内容" name="ご相談内容" placeholder="物件の詳細や現在のお悩みをお聞かせください"></textarea>
         </div>
 
         <div class="form-group">
           <label for="file">添付資料</label>
           <div class="file-upload">
-            <input type="file" id="file" name="file" accept=".pdf,.webp,.webp,.webp,.doc,.docx">
-            <label for="file" class="file-upload-label">
+            <input type="file" id="添付資料" name="添付資料" accept=".pdf,.webp,.webp,.webp,.doc,.docx">
+            <label for="添付資料" class="file-upload-label">
               📎 ファイルを選択してください
             </label>
           </div>
@@ -572,8 +599,8 @@
           <p>〒189-0002</p>
           <p>東京都東村山市青葉町2-38-30</p>
           <p>代表理事: 瀧本　勝</p>
-          <p>携帯（担当者直通）：080-7637-2595</p>
-          <p>MAIL: tunaguhudousan@gmail.com</p>
+          <a class="link" href="tel:08076372595">携帯（担当者直通）：080-7637-2595</p>
+          <a class="link" href="mailto:tunaguhudousan@gmail.com">MAIL: tunaguhudousan@gmail.com</a>
         </div>
 
         <div class="footer-section">
@@ -590,55 +617,214 @@
       </div>
 
       <div class="copyright">
-        <p>&copy; 2024 一般社団法人 つなぐ不動産の会. All Rights Reserved.</p>
+        <p>&copy; 2025 一般社団法人 つなぐ不動産の会. All Rights Reserved.</p>
       </div>
     </div>
   </footer>
 
   <script>
-    // FAQ アコーディオン機能
-    document.querySelectorAll('.faq-question').forEach(question => {
-          question.addEventListener('click', () => {
-            const answer = question.nextElementSibling;
-            const isOpen = answer.style.display === 'block';
+// FAQ アコーディオン機能
+document.querySelectorAll('.faq-question').forEach(question => {
+  question.addEventListener('click', () => {
+    const answer = question.nextElementSibling;
+    const isOpen = answer.style.display === 'block';
 
-            // 全て閉じる
-            document.querySelectorAll('.faq-answer').forEach(ans => {
-              ans.style.display = 'none';
-            });
+    // 全て閉じる
+    document.querySelectorAll('.faq-answer').forEach(ans => {
+      ans.style.display = 'none';
+    });
+    
+    document.querySelectorAll('.faq-question').forEach(q => {
+      q.style.backgroundColor = '#8B0000';
+    });
+
+    // クリックされた項目を開く/閉じる
+    if (!isOpen) {
+      answer.style.display = 'block';
+      question.style.backgroundColor = '#B22222';
+    }
+  });
+});
+
+// ファイルアップロード機能の強化
+document.addEventListener('DOMContentLoaded', function() {
+    const fileInput = document.getElementById('添付資料');
+    const fileLabel = document.querySelector('.file-upload-label');
+    const fileUploadContainer = document.querySelector('.file-upload');
+    
+    if (fileInput && fileLabel) {
+        // ファイル選択時の処理
+        fileInput.addEventListener('change', function(e) {
+            const file = e.target.files[0];
             
-            document.querySelectorAll('.faq-question').forEach(q => {
-              q.style.backgroundColor = '#8B0000';
-            });
-
-            // クリックされた項目を開く/閉じる
-            if (!isOpen) {
-              answer.style.display = 'block';
-              question.style.backgroundColor = '#B22222';
+            if (file) {
+                // ファイルサイズチェック（5MB制限）
+                const maxSize = 5 * 1024 * 1024; // 5MB
+                if (file.size > maxSize) {
+                    alert('ファイルサイズが大きすぎます。5MB以下のファイルを選択してください。');
+                    fileInput.value = '';
+                    return;
+                }
+                
+                // 許可される拡張子チェック
+                const allowedExtensions = ['pdf', 'jpg', 'jpeg', 'png', 'gif', 'doc', 'docx', 'txt', 'webp'];
+                const fileExtension = getFileExtension(file.name).toLowerCase();
+                if (!allowedExtensions.includes(fileExtension)) {
+                    alert('許可されていないファイル形式です。PDF、画像、Word文書、テキストファイルを選択してください。');
+                    fileInput.value = '';
+                    return;
+                }
+                
+                // ファイルが選択された場合
+                updateFileDisplay(file, fileLabel, fileUploadContainer);
+            } else {
+                // ファイルが削除された場合
+                resetFileDisplay(fileLabel, fileUploadContainer);
             }
-          });
         });
+        
+        // ドラッグ&ドロップ機能
+        setupDragAndDrop(fileInput, fileLabel, fileUploadContainer);
+    }
+});
 
-        // ファイルアップロード表示更新
-        document.getElementById('file')?.addEventListener('change', function(e) {
-          const fileName = e.target.files[0]?.name || 'ファイルを選択してください';
-          const label = document.querySelector('.file-upload-label');
-          if (label) {
-            label.textContent = e.target.files[0] ? `📎 ${fileName}` : '📎 ファイルを選択してください';
-          }
-        });
+// ファイル表示を更新する関数
+function updateFileDisplay(file, label, container) {
+    const fileName = file.name;
+    const fileSize = formatFileSize(file.size);
+    const fileExtension = getFileExtension(fileName).toLowerCase();
+    
+    // ファイル情報を表示
+    label.innerHTML = `
+        <div class="file-selected">
+            <div class="file-icon">${getFileIcon(fileExtension)}</div>
+            <div class="file-info">
+                <div class="file-name">${fileName}</div>
+                <div class="file-size">${fileSize}</div>
+            </div>
+            <div class="file-remove" onclick="removeFile()">×</div>
+        </div>
+    `;
+    
+    // コンテナにselectedクラスを追加
+    container.classList.add('file-selected');
+    container.classList.remove('file-error');
+    
+    // アニメーション効果
+    container.style.transform = 'scale(1.02)';
+    setTimeout(() => {
+        container.style.transform = 'scale(1)';
+    }, 200);
+}
 
-        // スムーススクロール
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-          anchor.addEventListener('click', function(e) {
-            e.preventDefault();
-            const target = document.querySelector(this.getAttribute('href'));
-            if (target) {
-              target.scrollIntoView({
-                behavior: 'smooth',
-                block: 'start'
-              });
+// ファイル表示をリセットする関数
+function resetFileDisplay(label, container) {
+    label.innerHTML = `📎 ファイルを選択してください`;
+    container.classList.remove('file-selected');
+    container.classList.remove('file-error');
+}
+
+// ファイルサイズをフォーマットする関数
+function formatFileSize(bytes) {
+    if (bytes === 0) return '0 Bytes';
+    const k = 1024;
+    const sizes = ['Bytes', 'KB', 'MB', 'GB'];
+    const i = Math.floor(Math.log(bytes) / Math.log(k));
+    return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
+}
+
+// ファイル拡張子を取得する関数
+function getFileExtension(fileName) {
+    return fileName.split('.').pop() || '';
+}
+
+// ファイルタイプに応じたアイコンを返す関数
+function getFileIcon(extension) {
+    const iconMap = {
+        'pdf': '📄',
+        'doc': '📝',
+        'docx': '📝',
+        'txt': '📄',
+        'jpg': '🖼️',
+        'jpeg': '🖼️',
+        'png': '🖼️',
+        'gif': '🖼️',
+        'webp': '🖼️'
+    };
+    
+    return iconMap[extension] || '📎';
+}
+
+// ファイルを削除する関数
+function removeFile() {
+    const fileInput = document.getElementById('添付資料');
+    const fileLabel = document.querySelector('.file-upload-label');
+    const fileUploadContainer = document.querySelector('.file-upload');
+    
+    if (fileInput) {
+        fileInput.value = '';
+        resetFileDisplay(fileLabel, fileUploadContainer);
+    }
+}
+
+// ドラッグ&ドロップ機能をセットアップする関数
+function setupDragAndDrop(fileInput, label, container) {
+    // ドラッグオーバー時
+    container.addEventListener('dragover', function(e) {
+        e.preventDefault();
+        container.classList.add('drag-over');
+    });
+    
+    // ドラッグリーブ時
+    container.addEventListener('dragleave', function(e) {
+        e.preventDefault();
+        container.classList.remove('drag-over');
+    });
+    
+    // ドロップ時
+    container.addEventListener('drop', function(e) {
+        e.preventDefault();
+        container.classList.remove('drag-over');
+        
+        const files = e.dataTransfer.files;
+        if (files.length > 0) {
+            const file = files[0];
+            
+            // ファイルサイズとタイプのチェック
+            const maxSize = 5 * 1024 * 1024; // 5MB
+            if (file.size > maxSize) {
+                alert('ファイルサイズが大きすぎます。5MB以下のファイルを選択してください。');
+                return;
             }
-          });
-        });
+            
+            const allowedExtensions = ['pdf', 'jpg', 'jpeg', 'png', 'gif', 'doc', 'docx', 'txt', 'webp'];
+            const fileExtension = getFileExtension(file.name).toLowerCase();
+            if (!allowedExtensions.includes(fileExtension)) {
+                alert('許可されていないファイル形式です。PDF、画像、Word文書、テキストファイルを選択してください。');
+                return;
+            }
+            
+            // DataTransferオブジェクトを作成してfileInputに設定
+            const dataTransfer = new DataTransfer();
+            dataTransfer.items.add(file);
+            fileInput.files = dataTransfer.files;
+            
+            updateFileDisplay(file, label, container);
+        }
+    });
+}
+
+// スムーススクロール
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function(e) {
+    e.preventDefault();
+    const target = document.querySelector(this.getAttribute('href'));
+    if (target) {
+      target.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }
+  });
+});
   </script>
